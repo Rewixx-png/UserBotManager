@@ -21,6 +21,12 @@ config.py
 .idea/
 .vscode/
 
-# Диагностические файлы
-diagnostic.py
-deep_diagnostic.py
+# Docker-специфичные файлы
+.dockerignore
+docker-compose.yml
+
+# Файл с переменными окружения (СЕКРЕТЫ!)
+.env
+
+# Папка для хранения данных Docker
+data/
